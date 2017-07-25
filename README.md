@@ -1,6 +1,6 @@
 <div align="center">
   <h1 align="center">Fantasy Skeleton Bootstrap</h1>
-  <p align="center">网站开发骨架，集成Webpack、Bootstrap、Scss</p>
+  <p align="center">网站开发骨架，集成Webpack、Bootstrap、Sass</p>
   <p align="center">Auth by Liuyl from GisUni</p>
 </div>
 
@@ -87,7 +87,7 @@ src目录中代码文件改动时将自动重新编译，页面更改将自动�
 | Gulp | 使用Gulp进行构建任务管理 |
 | ES6 | 使用ES6，集成了Bebal |
 | Eslint | 使用Eslint进行代码质量控制 |
-| jQuery | 集成了jquery 3.2.1 |
+| jQuery | 集成了jQuery 3.2.1 |
 | lodash | 集成了lodash |
 | Bootstrap | 集成了Bootstrap3 |
 | sass | 支持使用sass定义样式|
