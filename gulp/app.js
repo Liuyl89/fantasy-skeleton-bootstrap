@@ -76,7 +76,7 @@ gulp.task('webpack:build-dev' + name, function (callback) {
     })
 })
 
-gulp.task('webpack-dev-server' + name, ['clean' + name, 'copy' + name], function () {
+gulp.task('webpack-dev-server' + name, ['copy' + name], function () {
     // modify some webpack config options
     let hostName = 'localhost',
         host = `http://${hostName}:`,

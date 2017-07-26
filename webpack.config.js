@@ -57,28 +57,12 @@ module.exports = {
         }]
     },
     plugins: [
-        // new CopyWebpackPlugin([{
-        //     from: __dirname + '\\src\\404.html',
-        //     to: __dirname + '\\dist'
-        // }, {
-        //     from: __dirname + '\\src\\site.webmanifest',
-        //     to: __dirname + '\\dist'
-        // }, {
-        //     from: __dirname + '\\src\\css\\main.css',
-        //     to: __dirname + '\\dist'
-        // }, {
-        //     from: __dirname + '\\src\\assets\\img\\favicon.ico',
-        //     to: __dirname + '\\dist'
-        // }, {
-        //     from: __dirname + '\\src\\assets\\img\\icon.png',
-        //     to: __dirname + '\\dist'
-        // }]),
         new HtmlWebpackPlugin({
             template: './src/index.html',
             hash: true,
             filename: 'index.html',
             inject: false,
-            title: 'Fantasy Map',
+            title: 'Fantasy Skeleton Bootstrap',
             cdn: 'https://cdn.bootcss.com/',
             scripts: [{
                 file: 'modernizr.min.js',
